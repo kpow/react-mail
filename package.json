@@ -1,14 +1,26 @@
 {
-  "name": "mailing",
+  "name": "react-mail",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpow/react-mail.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kpow/react-mail/issues"
+  },
+  "homepage": "https://github.com/kpow/react-mail#readme",
+  "description": "",
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.36.0",
+    "nextjs": "^0.0.3"
+  },
   "dependencies": {
-    "@netlify/plugin-nextjs": "^4.36.0"
+    "esbuild": "^0.17.18"
   }
 }
